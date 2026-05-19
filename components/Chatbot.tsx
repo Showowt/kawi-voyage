@@ -112,7 +112,10 @@ export default function Chatbot({ isOpen, onClose }: ChatbotProps) {
             <p>Sophie&apos;s AI &middot; EN / ES / FR</p>
           </div>
           <button className="chat-close-btn" onClick={onClose} aria-label="Close chat">
-            \u2715
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              <line x1="1" y1="1" x2="13" y2="13" />
+              <line x1="13" y1="1" x2="1" y2="13" />
+            </svg>
           </button>
         </div>
 
